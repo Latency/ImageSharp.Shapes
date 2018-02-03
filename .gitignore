@@ -251,10 +251,3 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
-
-# sample output
-/samples/DrawShapesWithImageSharp/Output/**
-
-/tests/CodeCoverage/OpenCover.*
-SixLabors.Shapes.Coverage.xml
-/tests/SixLabors.Shapes.Benchmarks/BenchmarkDotNet.Artifacts/results/

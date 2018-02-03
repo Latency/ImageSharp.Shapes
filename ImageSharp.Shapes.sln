@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C317F1B1-D75E-4C6D-83EB-80367343E0D7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharp.Shapes", "ImageSharp.Shapes\ImageSharp.Shapes.csproj", "{09E744EC-4852-4FC7-BE78-C1B399F17967}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09E744EC-4852-4FC7-BE78-C1B399F17967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E744EC-4852-4FC7-BE78-C1B399F17967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E744EC-4852-4FC7-BE78-C1B399F17967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E744EC-4852-4FC7-BE78-C1B399F17967}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD1F3D64-B291-4029-B6BF-51F17D94EB88}
+	EndGlobalSection
+EndGlobal

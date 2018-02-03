@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.1;netstandard1.3;netstandard1.6;netstandard2.0;netcoreapp2.0;net45;net471</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageIconUrl>https://raw.githubusercontent.com/SixLabors/ImageSharp/master/build/icons/imagesharp-logo-128.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Latency/ImageSharp.Shapes</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/Latency/ImageSharp.Shapes</RepositoryUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <Company>Six Labors</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>Copyright (c) Six Labors and contributors.</Copyright>
+    <Authors>SixLabors</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Polygon manipulation/merging and interrogation library.</Description>
+    <AssemblyTitle>SixLabors.Shapes</AssemblyTitle>
+    <RootNamespace>SixLabors.Shapes</RootNamespace>
+    <AssemblyName>SixLabors.Shapes</AssemblyName>
+    <PackageId>SixLabors.Shapes</PackageId>
+    <PackageTags>polygon rectangle point shape 2D</PackageTags>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Buffers" Version="4.5.0-preview1-25914-04" />
+    <PackageReference Include="SixLabors.Core" Version="1.0.1" />   
+  </ItemGroup>
+</Project>
